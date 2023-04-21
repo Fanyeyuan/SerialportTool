@@ -1026,6 +1026,11 @@
   resolved "https://registry.npm.taobao.org/@serialport/parser-delimiter/download/@serialport/parser-delimiter-9.0.0.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40serialport%2Fparser-delimiter%2Fdownload%2F%40serialport%2Fparser-delimiter-9.0.0.tgz#1a241deaba80cf0aa6a88d37f60c64647604ec2d"
   integrity sha1-GiQd6rqAzwqmqI039gxkZHYE7C0=
 
+"@serialport/parser-inter-byte-timeout@^9.0.0":
+  version "9.2.4"
+  resolved "https://registry.npmmirror.com/@serialport/parser-inter-byte-timeout/-/parser-inter-byte-timeout-9.2.4.tgz#0ffb7f1449636f6363e894127d1f819b38e91c3c"
+  integrity sha512-SOAdvr0oBQIOCXX198hiTlxs4JTKg9j5piapw5tNq52fwDOWdbYrFneT/wN04UTMKaDrJuEvXq6T4rv4j7nJ5A==
+
 "@serialport/parser-readline@^9.0.0":
   version "9.0.0"
   resolved "https://registry.npm.taobao.org/@serialport/parser-readline/download/@serialport/parser-readline-9.0.0.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40serialport%2Fparser-readline%2Fdownload%2F%40serialport%2Fparser-readline-9.0.0.tgz#916391300e2e53a9f7b5aa847c989f7723986059"
@@ -1116,6 +1121,13 @@
   resolved "https://registry.npm.taobao.org/@types/color-name/download/@types/color-name-1.1.1.tgz#1c1261bbeaa10a8055bbc5d8ab84b7b2afc846a0"
   integrity sha1-HBJhu+qhCoBVu8XYq4S3sq/IRqA=
 
+"@types/crc@^3.4.0":
+  version "3.8.0"
+  resolved "https://registry.npmmirror.com/@types/crc/-/crc-3.8.0.tgz#688f9c236655af805ce71a791bd7925c997ccdff"
+  integrity sha512-m7woGxgPGlPSJ/4ae/7xf95QW4pDpEiaxlQgGyt+6JInQeKyEdZJybfjZueA84X9Lk8vckPyUnXdvU0nVs4r9w==
+  dependencies:
+    "@types/node" "*"
+
 "@types/debug@^4.1.5":
   version "4.1.5"
   resolved "https://registry.npm.taobao.org/@types/debug/download/@types/debug-4.1.5.tgz?cache=0&sync_timestamp=1588199984509&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40types%2Fdebug%2Fdownload%2F%40types%2Fdebug-4.1.5.tgz#b14efa8852b7768d898906613c23f688713e02cd"
@@ -1178,15 +1190,15 @@
   resolved "https://registry.npm.taobao.org/@types/node/download/@types/node-14.0.23.tgz?cache=0&sync_timestamp=1594655997654&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40types%2Fnode%2Fdownload%2F%40types%2Fnode-14.0.23.tgz#676fa0883450ed9da0bb24156213636290892806"
   integrity sha1-Z2+giDRQ7Z2guyQVYhNjYpCJKAY=
 
-"@types/node@12.12.6":
-  version "12.12.6"
-  resolved "https://registry.npm.taobao.org/@types/node/download/@types/node-12.12.6.tgz?cache=0&sync_timestamp=1594655997654&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40types%2Fnode%2Fdownload%2F%40types%2Fnode-12.12.6.tgz#a47240c10d86a9a57bb0c633f0b2e0aea9ce9253"
-  integrity sha1-pHJAwQ2GqaV7sMYz8LLgrqnOklM=
-
 "@types/node@^12.0.12":
   version "12.12.50"
   resolved "https://registry.npm.taobao.org/@types/node/download/@types/node-12.12.50.tgz?cache=0&sync_timestamp=1594655997654&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40types%2Fnode%2Fdownload%2F%40types%2Fnode-12.12.50.tgz#e9b2e85fafc15f2a8aa8fdd41091b983da5fd6ee"
   integrity sha1-6bLoX6/BXyqKqP3UEJG5g9pf1u4=
+
+"@types/node@^12.12.6":
+  version "12.20.55"
+  resolved "https://registry.npmmirror.com/@types/node/-/node-12.20.55.tgz#c329cbd434c42164f846b909bd6f85b5537f6240"
+  integrity sha512-J8xLz7q2OFulZ2cyGTLE1TbbZcjpno7FaN6zdJNrgAdrJ+DZzh/uFR6YrTb4C+nXakvud8Q4+rbhoIWlYQbUFQ==
 
 "@types/normalize-package-data@^2.4.0":
   version "2.4.0"
@@ -3589,10 +3601,10 @@ crc32-stream@^3.0.1:
     crc "^3.4.4"
     readable-stream "^3.4.0"
 
-crc@^3.4.4:
+crc@^3.4.4, crc@^3.8.0:
   version "3.8.0"
-  resolved "https://registry.npm.taobao.org/crc/download/crc-3.8.0.tgz#ad60269c2c856f8c299e2c4cc0de4556914056c6"
-  integrity sha1-rWAmnCyFb4wpnixMwN5FVpFAVsY=
+  resolved "https://registry.npmmirror.com/crc/-/crc-3.8.0.tgz#ad60269c2c856f8c299e2c4cc0de4556914056c6"
+  integrity sha512-iX3mfgcTMIq3ZKLIsVFAbv7+Mc10kxabAGQb8HvjA1o3T1PIYprbakQ65d3I+2HGHt6nSKkM9PYjgoJO2KcFBQ==
   dependencies:
     buffer "^5.1.0"
 
@@ -7475,6 +7487,15 @@ loader-utils@^1.0.2, loader-utils@^1.1.0, loader-utils@^1.2.3, loader-utils@^1.4
     emojis-list "^3.0.0"
     json5 "^1.0.1"
 
+loader-utils@^2.0.0:
+  version "2.0.4"
+  resolved "https://registry.npmmirror.com/loader-utils/-/loader-utils-2.0.4.tgz#8b5cb38b5c34a9a018ee1fc0e6a066d1dfcc528c"
+  integrity sha512-xXqpXoINfFhgua9xiqD8fPFHgkoq1mmmpE92WlDbm9rNRd/EbRb+Gqf908T2DMfuHjjJlksiK2RbHVOdD/MqSw==
+  dependencies:
+    big.js "^5.2.2"
+    emojis-list "^3.0.0"
+    json5 "^2.1.2"
+
 locate-path@^2.0.0:
   version "2.0.0"
   resolved "https://registry.npm.taobao.org/locate-path/download/locate-path-2.0.0.tgz#2b568b265eec944c6d9c0de9c3dbbbca0354cd8e"
@@ -10415,6 +10436,13 @@ semver@^7.2.1, semver@^7.3.2:
   resolved "https://registry.npm.taobao.org/semver/download/semver-7.3.2.tgz#604962b052b81ed0786aae84389ffba70ffd3938"
   integrity sha1-YElisFK4HtB4aq6EOJ/7pw/9OTg=
 
+semver@^7.3.4:
+  version "7.5.0"
+  resolved "https://registry.npmmirror.com/semver/-/semver-7.5.0.tgz#ed8c5dc8efb6c629c88b23d41dc9bf40c1d96cd0"
+  integrity sha512-+XC0AD/R7Q2mPSRuy2Id0+CGTZ98+8f+KvwirxOKIEyid+XSx6HbC63p+O4IndTHuX5Z+JxQ0TghCkO5Cg/2HA==
+  dependencies:
+    lru-cache "^6.0.0"
+
 semver@~5.3.0:
   version "5.3.0"
   resolved "https://registry.npm.taobao.org/semver/download/semver-5.3.0.tgz#9b2ce5d3de02d17c6012ad326aa6b4d0cf54f94f"
@@ -11594,6 +11622,17 @@ ts-loader@^6.2.2:
     micromatch "^4.0.0"
     semver "^6.0.0"
 
+ts-loader@^8.0.1:
+  version "8.4.0"
+  resolved "https://registry.npmmirror.com/ts-loader/-/ts-loader-8.4.0.tgz#e845ea0f38d140bdc3d7d60293ca18d12ff2720f"
+  integrity sha512-6nFY3IZ2//mrPc+ImY3hNWx1vCHyEhl6V+wLmL4CZcm6g1CqX7UKrkc6y0i4FwcfOhxyMPCfaEvh20f4r9GNpw==
+  dependencies:
+    chalk "^4.1.0"
+    enhanced-resolve "^4.0.0"
+    loader-utils "^2.0.0"
+    micromatch "^4.0.0"
+    semver "^7.3.4"
+
 ts-pnp@^1.1.6:
   version "1.2.0"
   resolved "https://registry.npm.taobao.org/ts-pnp/download/ts-pnp-1.2.0.tgz#a500ad084b0798f1c3071af391e65912c86bca92"
@@ -11727,9 +11766,9 @@ typescript@~3.9.3:
   integrity sha1-mNYApevcOPQMsndSLxLcgA6eJfo=
 
 ua-parser-js@^0.7.21:
-  version "0.7.21"
-  resolved "https://registry.npm.taobao.org/ua-parser-js/download/ua-parser-js-0.7.21.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fua-parser-js%2Fdownload%2Fua-parser-js-0.7.21.tgz#853cf9ce93f642f67174273cc34565ae6f308777"
-  integrity sha1-hTz5zpP2QvZxdCc8w0Vlrm8wh3c=
+  version "0.7.35"
+  resolved "https://registry.npmmirror.com/ua-parser-js/-/ua-parser-js-0.7.35.tgz#8bda4827be4f0b1dda91699a29499575a1f1d307"
+  integrity sha512-veRf7dawaj9xaWEu9HoTVn5Pggtc/qj+kqTOFvNiN1l0YdxwC1kvel57UCjThjGa3BHBihE8/UJAHI+uQHmd/g==
 
 uglify-js@3.4.x:
   version "3.4.10"
